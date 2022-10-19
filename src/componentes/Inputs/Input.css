@@ -1,0 +1,24 @@
+.input {
+    margin: 20px 0;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.input input{
+    background-color:rgb(153, 189, 254);
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid #0d0d0d;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+
+.input input:hover{
+    background-color: #fff;
+    color: black;
+}

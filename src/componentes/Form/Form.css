@@ -1,0 +1,18 @@
+.container {
+    width: 400px;
+    margin: 10px 0;
+}
+.container form {
+    max-width: 80%;
+    background-color: rgb(153, 189, 254);
+    border-radius: 5px;
+    padding: 36px 64px ;
+    
+}
+
+@media (max-width : 766px){ 
+    .container {
+        width: 450px;
+        margin: 30px 0;
+    }
+  }

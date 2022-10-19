@@ -1,0 +1,17 @@
+.body{
+  background-image: url("../public/imagem/fundo.jpg") no-repeat right top fixed;
+  background: linear-gradient(0600ff, 00f4fd);
+}
+.App{
+ 
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  
+}
+@media (max-width : 766px){ 
+  .App{
+      display: grid;
+      grid-template-columns: auto;
+  }
+}
